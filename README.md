@@ -7,7 +7,7 @@
 
  <h1 align="center">Ferramentas Utilizadas</h1>
 
-<p align="justify">Utilizei a ferramenta Figma para a criação do conceito do layout e depois construi tudo utilizando HTML e CSS. Foi um processo difícil e que me trouxe muitos desafios, mas também foi divertido e gostei muito de fazer e do resultado. Por hora o código não está otimizado da melhor forma e há muito o que aprender ainda. Quero futuramente tentar aperfeiçoar o código para deixa-lo mais responsivo e possibilitar seu acesso na web e talvez inserir novas funcionalidades.</p>
+<p align="justify">Utilizei a ferramenta Figma para a criação do conceito do layout e depois construi tudo utilizando HTML e CSS. Foi um processo difícil e que me trouxe muitos desafios, mas também foi divertido e gostei muito de fazer e do resultado. Por hora o código não está otimizado da melhor forma e há muito o que aprender ainda. Quero futuramente tentar aperfeiçoar o código para deixa-lo mais responsivo e possibilitar seu acesso na web e talvez inserir novas funcionalidades conforme meus estudos forem avançando dentro da Alura.</p>
   
 <br>
 

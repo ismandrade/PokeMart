@@ -17,4 +17,4 @@
  
  <h1 align="center">Visualização</h1>
   
-<p align="center">O projeto pode ser visto através da <a href="https://pokemart-one.vercel.app/index.html">Vercel</a></p>
+<p align="center">O projeto pode ser visto através da <a href="https://pokemart-one.vercel.app/index.html">Vercel</a>.</p>

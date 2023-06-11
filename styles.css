@@ -74,13 +74,12 @@ body {
 
 .principal__pokebola {
     background-color: var(--cor-secundaria);
-    height: 31.5rem;
+    height: 33rem;
     margin-left: 1.6rem;
 }
 
 .principal__pokebola__imagem {
     margin: 7rem 0;
-    text-align: center;
 }
 
 footer {
@@ -91,6 +90,11 @@ footer {
 .pokedex__footer__imagem {
     margin-left: 3.8rem;
     margin-right: 11.9rem;
+}
+
+.about {
+    display: flex;
+    margin: 3rem 0rem 3rem 1.5rem;
 }
 
 .about__titulo {

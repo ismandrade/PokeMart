@@ -16,199 +16,95 @@
     padding: 0;
 }
 
-.corpo {
+
+body {
+
     background-color: var(--background);
-}
-
-.pokedex {
-    margin: 3%;
-}
-
-.pokedex__linha {
-    display: flex;
-    position: relative;
-    z-index: 1;
-    width: 100%;
-}
-
-.pokedex__bola {
-    width: 85%;
-}
-
-.pokedex__bolinhas {
-    display: flex;
-    justify-content: flex-start;
-    position: absolute; 
-    z-index: 2;
-    top: 1%;
-    padding: 7% 3.5%;
-    gap: 2%;
-}
-
-.pokedex__bolinha-vermelha {
-    position: absolute;
-    top: 32%;
-    left: 120%;
-    width: 13%;
-}
-
-.pokedex__bolinha-amarela {
-    position: absolute;
-    top: 32%;
-    left: 140%;
-    width: 13%;
-}
-
-.pokedex__bolinha-verde {
-    position: absolute;
-    top: 32%;
-    left: 160%;
-    width: 13%;
-}
-
-.titulo {
-    position: absolute;
-    top: 25%;
-    left: 19%;
+    background-image: url(assets/pokedex-header.png);
+    background-repeat: no-repeat;
     font-family: var(--fonte-primaria);
-    font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 1rem;
     color: var(--cor-primaria);
 }
 
-.links {
+.pokedex__header {
     display: flex;
-    position: absolute;
-    top: 25%;
-    left: 43%;
-    gap: 26.5%;
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-    font-size: 1.79rem;
-    color: var(--cor-secundaria);
 }
 
-.home {
-    z-index: 3;
-    border: 2px solid var(--cor-secundaria);
-    border-radius: 10px;
-    padding: 1% 20%;
+.pokedex__header__titulo {
+    font-size: 3rem;
+    color: var(--cor-primaria);
+    margin-left: 15.4rem;
+    margin-top: 9rem;
+}
+
+.pokedex__header__links {
+    text-align: right;
+    margin: 9.9rem 0 0 0;
+}
+
+.pokedex__header__links__link {
+    padding: 0 1.6rem;
+    text-decoration: none;
+    font-size: 2rem;
     text-decoration: none;
     color: var(--cor-secundaria);
+    border: 0.18rem solid var(--cor-secundaria);
+    border-radius: 0.62rem;
+    margin-left: 5.3rem;
 }
 
-.home:hover{
+.link__um:hover {
     background-color: var(--cor-terciaria);
 }
 
-.sobre {
-    z-index: 3;
-    border: 2px solid var(--cor-secundaria);
-    border-radius: 10px;
-    padding: 1% 20%;
-    text-decoration: none;
-    color: var(--cor-secundaria);
-}
-
-.sobre:hover {
+.link__dois:hover {
     background-color: var(--cor-quartenaria);
 }
 
-.github {
-    z-index: 3;
-    border: 2px solid var(--cor-secundaria);
-    border-radius: 10px;
-    padding: 1% 20%;
-    text-decoration: none;
-    color: var(--cor-secundaria);
-}
-
-.github:hover {
+.link__tres:hover {
     background-color: var(--cor-quinaria);
 }
 
 .principal {
     display: flex;
     position: relative;
-    justify-content: center;
-    gap: 5%;
-    margin: 3%;
-    height: 100%;
+    margin: 3.8rem;
 }
 
-.principal__sessao__1 {
-    position: relative;
-    z-index: 1;
-    border: 19px solid var(--cor-primaria);
+.principal__pokebola {
     background-color: var(--cor-secundaria);
-    border-radius: 10px;
-    width: 100%;
+    height: 31.5rem;
+    margin-left: 1.6rem;
 }
 
-.principal__sessao__2 {
-    position: relative;
-    z-index: 1;
-    border: 1% solid var(--cor-secundaria);
-    background-color: var(--cor-secundaria);
-    width: 25%;
-    padding: 6.8% 0% 6.8% 0%;
-    height: auto;
+.principal__pokebola__imagem {
+    margin: 7rem 0;
 }
 
-.principal__sessao__2__bola {
+footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-.rodape {
-    display: flex;
-    gap: 25%;
-    margin: 3%;
-    width: 100%;
+    margin: 3.8rem 0 2.5rem 0;
 }
 
-.principal__sessao__1__about {
-    border: 19px solid var(--cor-primaria);
-    width: 90%;
-    background-color: var(--cor-secundaria);
-    border-radius: 10px;
-    color: var(--cor-primaria);
+.pokedex__footer__imagem {
+    margin-left: 3.8rem;
+    margin-right: 11.9rem;
 }
 
 .about__titulo {
-    position: absolute;
-    z-index: 2;
-    margin-top: 2.2%;
-    margin-right: 30%;
-    padding: 0% 5%;
-    color: var(--cor-primaria);
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-    font-size: 1.79rem;
+    font-size: 2rem;
+    padding-top: 2rem;
     text-align: center;
 }
 
 .about__texto {
-    position: absolute;
-    z-index: 3;
-    color: var(--cor-primaria);
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.56rem;
     text-align: justify;
-    padding: 7% 7% 0% 7%;
-    margin-right: 30%;
+    margin: 2.5rem;
 }
 
-.slogan {
-    position: absolute;
-    z-index: 2;
-    color: var(--cor-primaria);
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-    font-size: 1.40rem;
+.about__frase {
+    font-size: 1.7rem;
     text-align: center;
-    padding: 25.5% 5% 0% 5%;
-    margin-right: 30%;
 }

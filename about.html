@@ -1,47 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre</title>
+    <title>PokeMart</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="itens.css">
+    <script hrel="about.html"></script>
 </head>
-<body class="corpo">
-    <header>
-        <section class="pokedex">
-        <img class="pokedex__linha" src="assets/linha.svg">
-        <div class="pokedex__bolinhas">
-        <img class="pokedex__bola" src="assets/bola-azul.svg">
-        <img class="pokedex__bolinha-vermelha" src="assets/bolinha-vermelha.svg">
-        <img class="pokedex__bolinha-amarela" src="assets/bolinha-amarela.svg">
-        <img class="pokedex__bolinha-verde" src="assets/bolinha-verde.svg">
+<body>
+    <header class="pokedex__header">
+        <h1 class="pokedex__header__titulo">POKÉ MART</h1>
+        <div class="pokedex__header__links">
+        <a class="pokedex__header__links__link link__um" href="index.html">HOME</a>
+        <a class="pokedex__header__links__link link__dois" href="about.html">SOBRE NÓS</a>
+        <a class="pokedex__header__links__link link__tres" href="www.google.com">GITHUB</a>
         </div>
-        </section>
-        <section class="cabeca">
-            <h1 class="titulo">POKEMART</h1>
-            <div class="links">
-            <a class="home" href="index.html">HOME</a>
-            <a class="sobre" href="about.html">SOBRE</a>
-            <a class="github" href="https://github.com/ismandrade">GITHUB</a>
-            </div>
-        </section>
     </header>
     <main class="principal">
-        <p class="principal__sessao__1__about"></p>
-        <h1 class="about__titulo">QUEM SOMOS?</h1>
-        <p class="about__texto">O Pokémon Mart ou PokeMart, era inicialment uma pequena loja de conveniência fundada em 1997 e que vem crescendo exponencialmente desde então. Vendemos todos os itens necessários para o dia-a-dia de um treinador Pokémon, desde suprimentos de aventura até itens medicinais.
-            <br><br>
-            Nossos produtos são produzidos diretamente pela Silph Corporation, empresa responsável por garantir sempre a melhor qualidade em seus produtos para que sua experiência no mundo Pokémon possa ser incrível.
-        <br><br><div class="slogan"> POKEMART: PARA TODAS AS NECESSIDADES DOS SEUS POKÉMON!</div>
-        </p>
-        <p class="principal__sessao__2">
-            <img class="retangulo" src="assets/pokebola.svg">
-        </p>
+        <section class="principal__visor">
+            <section class="about">
+            <h1 class="about__titulo">SOBRE NÓS</h1>
+            <p class="about__texto">O Pokémon Mart ou PokeMart, era inicialment uma pequena loja de conveniência fundada em 1997 e que vem crescendo exponencialmente desde então. Vendemos todos os itens necessários para o dia-a-dia de um treinador Pokémon, desde suprimentos de aventura até itens medicinais.<br><br>Nossos produtos são produzidos diretamente pela Silph Corporation, empresa responsável por garantir sempre a melhor qualidade em seus produtos para que sua experiência no mundo Pokémon possa ser incrível.</p>
+            <p class="about__frase">POKEMART: PARA TODAS AS NECESSIDADES DOS SEUS POKÉMON!</p>
+            </section>
+                               
+            </div>
+        </section>
+        <section class="principal__pokebola">
+            <img class="principal__pokebola__imagem" src="assets/pokebola.svg">
+        </section>
     </main>
-    <footer class="rodape">
-        <img src="assets/bola-preta.svg">
-        <img src="assets/visor.svg">
+    <footer>
+        <img class="pokedex__footer__imagem" src="assets/bolinha.svg">
+        <img class="pokedex__footer__imagem" src="assets/retangulo.svg">
+        <img class="pokedex__footer__imagem" src="assets/botao.svg">
     </footer>
 </body>
 </html>

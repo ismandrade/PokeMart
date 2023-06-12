@@ -4,7 +4,7 @@
         flex-direction: row;
         justify-content: space-around;
         background-color: var(--cor-secundaria);
-        width: 24rem;
+        width: 22rem;
         border: 0.7rem solid var(--cor-primaria);
         border-radius: 0.62rem;
     }
@@ -35,9 +35,9 @@
     
     .item {
         background-color: var(--cor-primaria);
-        width: 3.5rem;
+        width: 3.4rem;
         height: 6rem;
-        margin: 0.2rem;
+        margin: 0.11rem;
         font-size: 0.6rem;
     }
 }

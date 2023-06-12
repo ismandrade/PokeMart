@@ -12,14 +12,14 @@
     }
 
     .pokedex__header__titulo {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         color: var(--cor-primaria);
-        margin-left: 17.5rem;
+        margin-left: 14rem;
         margin-top: 9rem;
     }
 
     .pokedex__header__links__link {
-        padding: 0.5rem 1.5rem;
+        padding: 0.5rem 1rem;
         text-decoration: none;
         font-size: 0.9rem;
         text-decoration: none;

@@ -84,7 +84,7 @@ body {
 
 footer {
     display: flex;
-    margin: 3.8rem 0 2.5rem 0;
+    margin: 5rem 0 5rem 0;
 }
 
 .pokedex__footer__imagem {
@@ -94,7 +94,7 @@ footer {
 
 .about {
     display: flex;
-    margin: 3rem 0rem 3rem 1.5rem;
+    margin: 3.8rem 0rem 0 3.8rem;
 }
 
 .about__titulo {

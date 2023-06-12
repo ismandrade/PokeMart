@@ -20,6 +20,7 @@
 
     .pokedex__header__links {
         text-align: center;
+        display:block;
     }
 
     .pokedex__header__links__link {
@@ -30,7 +31,7 @@
         color: var(--cor-secundaria);
         border: 0.18rem solid var(--cor-secundaria);
         border-radius: 0.62rem;
-        margin: 0 2.5rem;
+        margin: 0 1rem;
     }
 
     .container {
